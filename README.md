@@ -4,7 +4,7 @@ thrasherDGK Infra repository
 ## Организация SSH подключения
 ```sh
 bastion_IP = 35.204.20.59
-someinternal_IP = 10.164.0.3
+someinternalhost_IP = 10.164.0.3
 ```
 
 На рабочей станции добавить конфигурацию для ssh клиента
