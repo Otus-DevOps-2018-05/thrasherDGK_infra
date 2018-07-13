@@ -33,6 +33,12 @@ Host someinternalhost
 ## ДЗ №4. Основные сервисы Google Cloud Platform (GCP).
 
 ### Создание новых инстансов сервера приложения с помощью startup скрипта
+Адрес развернутого инстанса приложения
+```
+testapp_IP = 35.204.180.241
+testapp_port = 9292
+```
+
 Из терминала создаем новые инстансы приложения с помощью следующей команды:
 ```bash
 gcloud compute instances create reddit-app \
